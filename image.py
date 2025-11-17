@@ -3,7 +3,7 @@ import cv2
 import os
 
 #reading test image
-img = cv2.imread("p 0.jpg") #image name
+img = cv2.imread("test.jpg") #image name
 
 #reading label name from obj.names file
 with open(os.path.join("project_files",'obj.names'), 'r') as f:
